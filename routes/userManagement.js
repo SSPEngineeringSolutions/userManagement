@@ -21,7 +21,7 @@ router.get('/registerUser',async (req,res)=>{
   res.send('Thanks for Confirmation!');
 })
 
-app.get('/resetPassword',async (req,res)=>{
+router.get('/resetPassword',async (req,res)=>{
   res.send('resetPassword!');
 })
 
