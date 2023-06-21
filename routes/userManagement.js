@@ -9,7 +9,7 @@ const app = new Realm.App({
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('Welcome!!');
+  res.send('Welcome ro renderer!!');
 });
 
 router.get('/registerUser',async (req,res)=>{
